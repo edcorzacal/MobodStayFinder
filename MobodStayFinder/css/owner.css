@@ -1,0 +1,108 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #f8f9fa, #e0f7fa);
+}
+.navbar {
+    background-color: #343a40;
+}
+.navbar .navbar-brand, .navbar .nav-link {
+    color: white !important;
+}
+.navbar .nav-link:hover {
+    background-color: #495057;
+    border-radius: 4px;
+}
+.content {
+    padding: 20px;
+    display: none;
+}
+.content.active {
+    display: block;
+}
+#home {
+    text-align: center;
+    padding: 50px 20px;
+    background: linear-gradient(to right, #0062E6, #33AEFF);
+    color: white;
+}
+#home h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+#home p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.feature {
+    background: linear-gradient(to right, #ffffff, #e0f7fa);
+    border-radius: 15px;
+    padding: 20px;
+    width: 250px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s, background-color 0.3s;
+}
+.feature:hover {
+    transform: translateY(-10px);
+    background: linear-gradient(to right, #33AEFF, #0062E6);
+    color: white;
+}
+.feature h3 {
+    color: #0062E6;
+    margin-bottom: 15px;
+}
+.feature p {
+    color: #333;
+}
+.btn-primary {
+    background-color: #0062E6;
+    border-color: #0062E6;
+}
+.btn-primary:hover {
+    background-color: #004bbd;
+    border-color: #004bbd;
+}
+.carousel-item img {
+    max-height: 300px;
+    object-fit: cover;
+    width: 100%;
+}
+.description {
+    margin-top: 20px;
+}
+.card {
+    border: none;
+    margin: 20px 0;
+}
+.card-header {
+    background-color: #0062E6;
+    color: white;
+    padding: 15px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.card-body {
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.badge {
+    font-size: 1rem;
+}
+.modal-header {
+    background-color: #0062E6;
+    color: white;
+}
+.modal-footer .btn-secondary {
+    background-color: #6c757d;
+}
+.modal-footer .btn-secondary:hover {
+    background-color: #5a6268;
+}
