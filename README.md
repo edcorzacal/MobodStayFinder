@@ -1,6 +1,7 @@
+2nd Year 1st Sem Final
+
 # MobodStayFinder 
 
-**2nd Year - One PIT**
 
 **MobodStayFinder** is a web system that helps users find boarding houses in **Oroquieta City**. The system offers an intuitive interface to search, filter, and view available boarding houses in the area, making it easier for individuals to find affordable accommodation.
 
